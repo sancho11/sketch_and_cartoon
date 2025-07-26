@@ -61,11 +61,11 @@ The program:
 Clone the repository and build all projects in one step:
 
 ```bash
-https://github.com/sancho11/sketch_and_cartoon.git
+git clone https://github.com/sancho11/sketch_and_cartoon.git
 cd sketch_and_cartoon
 mkdir build && cd build
 cmake ..
-make -j$(nproc)
+make
 ```
 
 Executable will be placed in the bin directory `build/bin/sketch_and_cartoon`.
